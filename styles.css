@@ -17,16 +17,17 @@ input{
     color: #D3C5AC;
     background-color: #191C23;
     font-weight: 400;
+    padding-left: 30px ;
+    height: 100%;
+    border-radius: 7px;
+    border: none;
 }
 .header-p{
     font-weight: 600;
     font-size: 1.3rem;
     color: #E0E2EC;
 }
-input{
-    padding-left: 30px ;
-    height: 100%;
-}
+
 .search-bar{
     position: relative;
     height: 30px;
@@ -92,4 +93,21 @@ h3{
     background-color: #191C23;
     color: #B9C8DE;
     border: none;
+}
+
+@media(max-width:767px){
+    .movie-grid{
+        display: flex;
+        flex-direction: column;
+    }
+    section{
+        padding: 20px 40px;
+    }
+    .section-title{
+        gap:20px;
+    }
+    .buttons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
