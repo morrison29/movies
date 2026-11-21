@@ -9,7 +9,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 20px 30px;
     font-family: "Plus Jakarta Sans", sans-serif;
     align-items: center;
 }
@@ -39,7 +39,7 @@ input{
     color: #D3C5AC;
 }
 section{
-    padding: 50px 70px;
+    padding: 50px;
 }
 .section-title{
     display: flex;
@@ -109,14 +109,12 @@ h3{
     .movie-grid{
         grid-template-columns: 1fr;
     }
-    section{
-        padding: 20px 40px;
-    }
+
     .section-title{
         gap:20px;
     }
     .buttons{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
